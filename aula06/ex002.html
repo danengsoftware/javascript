@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
     <style>
-
-        body{
-            background-color: rgb(130, 130, 130);
+        body{ 
+            background-color: rgb(95, 95, 95);
             color: white;
             font: normal 25px arial;
         }
@@ -17,7 +16,7 @@
         }
 
         p{
-            color: red;
+            color: white;
         }
     </style>
 </head>
@@ -28,11 +27,8 @@
     <p>Ja me livrei da maldição!!</p>
 
     <script>
-        window.alert('Minha primeira mensagem')
-
-        window.confirm('Esta gostando de JS?')
-
-        window.prompt('Qual e seu nome?')        
+        var nome = window.prompt('Qual e seu nome?')  
+        window.alert('É um grande prazer em te conhecer,' + nome + '!') //Concatenação  sinal de +             
     </script>
     
 </body>
